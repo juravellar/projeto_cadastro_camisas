@@ -10,7 +10,7 @@ public class Cadastro {
     public Cadastro() {
         try {
             Class.forName("org.postgresql.Driver");
-            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/produto", "postgres", "0000");
+            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/seu-banco-de-dados", "seu-usuario", "sua-senha");
             if (connection != null) {
                 System.out.println("Conexão com o banco de dados estabelecida com sucesso.");
             } else {
