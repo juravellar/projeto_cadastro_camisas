@@ -20,7 +20,7 @@ git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://githu
 
 - Certifique-se de que o PostgreSQL está instalado e em execução.
 
-#### Crie um banco de dados chamado gerenciamento_camisetas.
+#### Crie um banco de dados chamado produtos.
 Execute o script script_bd.sql fornecido no diretório sql para criar a tabela necessária.
 Importe o Projeto na sua IDE:
 
